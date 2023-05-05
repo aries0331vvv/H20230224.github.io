@@ -1,0 +1,120 @@
+:root {
+    /* --變數名: 值; */
+    --nav-active-color: rgb(0, 0, 0);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+
+nav a {
+    display: inline-block;
+    color: #526578;
+    background-color: aliceblue;
+    display: inline-blcok;
+    text-decoration: none;
+    padding-top: 35px;
+    padding-left: 80px;
+    padding-right: 80px;
+    min-width: 80px;
+    height: 6opx;
+
+}
+
+nav .active-link {
+    color: var(--nav-active-color);
+    border-top: 4px solid var(--nav-active-color);
+}
+
+header {
+    align-items: center;
+    color: aliceblue;
+    background: #526578;
+    padding: 5px 5px;
+    font-family: STZhongsong;
+
+}
+
+.header-carousel {
+    width: 80%;
+}
+
+header h1 {
+    font-size: 28px;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    padding-left: 40px;
+}
+
+article h3 {
+    font-size: 16px;
+    background-color: aliceblue;
+    padding: 10px;
+}
+
+article {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+img {
+    width: 30%;
+    padding: 0px 0px;
+}
+
+article h1 {
+    color: #526578;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-family: STZhongsong;
+
+}
+
+article p1 {
+    color: #526578;
+    font: bolder;
+    padding: 10px 10px;
+    font-weight: bold;
+}
+
+article p2 {
+    color: #595853;
+    display: inline-blcok;
+    text-decoration: none;
+    padding-top: 35px;
+    padding-left: 12px;
+    padding-right: 12px;
+    min-width: 85px;
+    height: 63px;
+
+}
+
+article p3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+article p {
+    padding: 10px;
+}
+
+article .date {
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+article h2 {
+    background-color: aliceblue;
+    font-size: 16px;
+    padding: 10px;
+    padding-top: 10px;
+    color: black;
+}
